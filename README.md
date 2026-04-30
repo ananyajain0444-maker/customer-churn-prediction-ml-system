@@ -57,18 +57,14 @@ Customer-Churn-Prediction/
 
 ## 🚀 How to Run the Project
 
-### 1️⃣ Clone Repository
-git clone https://github.com/your-username/customer-churn-prediction-ml-system.git  
-cd customer-churn-prediction-ml-system  
-
-### 2️⃣ Create Virtual Environment
+### 1️⃣ Create Virtual Environment
 python -m venv venv  
 venv\Scripts\activate   # Windows  
 
-### 3️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 pip install -r requirements.txt  
 
-### 4️⃣ Run FastAPI Server
+### 3️⃣ Run FastAPI Server
 uvicorn api.main:app --reload  
 
 ---
@@ -132,6 +128,4 @@ POST /predict
 
 ## 👨‍💻 Author
 Ananya Jain  
-
-
 ---
